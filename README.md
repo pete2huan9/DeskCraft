@@ -1,5 +1,9 @@
 # 🖥️ DeskCraft Pro
 
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Launch%20DeskCraft-blue?style=for-the-badge)](https://pete2huan9.github.io/DeskCraft/)
+
+👉 **[Click Here to Open DeskCraft Pro in your Browser](https://pete2huan9.github.io/DeskCraft/)**
+
 > **Interactive Multi-Monitor & Desk Setup Planner / 交互式桌面显示器布局模拟器**
 
 DeskCraft Pro is an interactive web-based simulator designed to help developers, creators, and remote workers plan, visualize, and optimize their desk setups before buying hardware. Accurately simulate monitor dimensions, aspect ratios, desk sizes, gas-spring monitor arms, mechanical keyboards, mice, and studio audio monitors with real-world physical scaling.
