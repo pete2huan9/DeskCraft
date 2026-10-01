@@ -6,11 +6,11 @@
 [![Version](https://img.shields.io/badge/Version-1.1.1-emerald?style=for-the-badge)](https://github.com/pete2huan9/DeskCraft)
 [![License: MIT](https://img.shields.io/badge/License-MIT-amber?style=for-the-badge)](LICENSE)
 
-👉 **[在线免安装体验 / Click Here to Open DeskCraft](https://pete2huan9.github.io/DeskCraft/)**
+DeskCraft is an interactive web-based simulator designed to help you plan, visualize, and optimize your multi-monitor desk setup before buying hardware. Accurately simulate monitor dimensions, aspect ratios, desk sizes, inward swivel angles, gas-spring monitor arms, mechanical keyboards, and studio audio monitors with real-world physical scaling.
 
 DeskCraft 是一款高精度交互式多屏显示器与桌面工位布局规划工具。专为开发者、设计师、游戏玩家与远程办公人士打造，在购买硬件前以真实物理比例（1:1）直观模拟显示器尺寸、向内偏转角度、气动机械臂、客制化机械键盘及专业监听音箱，零成本完成工位预演。
 
-DeskCraft is an interactive web-based simulator designed to help you plan, visualize, and optimize your multi-monitor desk setup before buying hardware. Accurately simulate monitor dimensions, aspect ratios, desk sizes, inward swivel angles, gas-spring monitor arms, mechanical keyboards, and studio audio monitors with real-world physical scaling.
+👉 **[Launch Live Demo / 在线免安装体验](https://pete2huan9.github.io/DeskCraft/)**
 
 ---
 
