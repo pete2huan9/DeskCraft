@@ -12,10 +12,6 @@ DeskCraft 是一款高精度交互式多屏显示器与桌面工位布局规划�
 
 👉 **[Launch Live Demo / 在线免安装体验](https://pete2huan9.github.io/DeskCraft/)**
 
-<p align="center">
-  <img src="docs/images/deskcraft-showcase.png" alt="DeskCraft Multi-Monitor & Desk Setup Simulator" width="100%" />
-</p>
-
 ---
 
 ## 🖼️ 工位效果展示 / Workstation Gallery
