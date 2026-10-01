@@ -1,7 +1,7 @@
 {
   "name": "deskcraft",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Interactive Multi-Monitor & Desk Setup Planner with Synchronized Front and Top-Down Views",
   "type": "module",
   "scripts": {

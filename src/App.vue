@@ -498,7 +498,7 @@
             <div class="screen-info-overlay">
               <div class="size-pill">
                 <span class="diagonal-num">{{ m.diagonal }}"</span>
-                <span class="ratio-text">{{ m.isPortrait ? `${m.ratioY}:${m.ratioX}` : `${m.ratioX}:${m.ratioY}` }}</span>
+                <span class="ratio-text">{{ getMonitorRatioDisplay(m) }}</span>
                 <span v-if="m.swivelAngle" class="swivel-num-pill">
                   📐 {{ Math.abs(m.swivelAngle) }}° {{ m.swivelAngle > 0 ? '⤹' : '⤸' }}
                 </span>
@@ -2193,8 +2193,22 @@ const setMonitorDiagonal = (m, d) => {
   updateSelected()
 }
 
+const getMonitorRatioDisplay = (m) => {
+  if (!m) return ''
+  let rx = m.ratioString === 'custom' ? Number(m.ratioX || 16) : Number(m.ratioString?.split(':')[0] || 16)
+  let ry = m.ratioString === 'custom' ? Number(m.ratioY || 9) : Number(m.ratioString?.split(':')[1] || 9)
+  if (!rx || isNaN(rx)) rx = 16
+  if (!ry || isNaN(ry)) ry = 9
+  return m.isPortrait ? `${ry}:${rx}` : `${rx}:${ry}`
+}
+
 const setMonitorRatio = (m, r) => {
   m.ratioString = r
+  if (r !== 'custom') {
+    const parts = r.split(':')
+    m.ratioX = Number(parts[0]) || 16
+    m.ratioY = Number(parts[1]) || 9
+  }
   updateSelected()
 }
 
@@ -2276,8 +2290,14 @@ const addMonitor = () => {
 const updateSelected = () => {
   if (!selectedMonitor.value) return
   const m = selectedMonitor.value
-  let rx = m.ratioString === 'custom' ? Number(m.ratioX) : Number(m.ratioString.split(':')[0])
-  let ry = m.ratioString === 'custom' ? Number(m.ratioY) : Number(m.ratioString.split(':')[1])
+  let rx = m.ratioString === 'custom' ? Number(m.ratioX || 16) : Number(m.ratioString?.split(':')[0] || 16)
+  let ry = m.ratioString === 'custom' ? Number(m.ratioY || 9) : Number(m.ratioString?.split(':')[1] || 9)
+
+  if (!rx || isNaN(rx) || rx <= 0) rx = 16
+  if (!ry || isNaN(ry) || ry <= 0) ry = 9
+
+  m.ratioX = rx
+  m.ratioY = ry
 
   const { widthPx, heightPx, widthCm, heightCm } = calculateDimensions(m.diagonal, rx, ry, m.isPortrait)
   m.widthPx = widthPx

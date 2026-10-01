@@ -3,7 +3,7 @@
 > **Interactive Multi-Monitor & Desk Setup Planner / 交互式多屏显示器与工位桌面布局模拟器**
 
 [![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Launch%20DeskCraft-38bdf8?style=for-the-badge)](https://pete2huan9.github.io/DeskCraft/)
-[![Version](https://img.shields.io/badge/Version-1.1.0-emerald?style=for-the-badge)](https://github.com/pete2huan9/DeskCraft)
+[![Version](https://img.shields.io/badge/Version-1.1.1-emerald?style=for-the-badge)](https://github.com/pete2huan9/DeskCraft)
 [![License: MIT](https://img.shields.io/badge/License-MIT-amber?style=for-the-badge)](LICENSE)
 
 👉 **[在线免安装体验 / Click Here to Open DeskCraft](https://pete2huan9.github.io/DeskCraft/)**
