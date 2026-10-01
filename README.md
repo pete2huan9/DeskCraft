@@ -12,6 +12,19 @@ DeskCraft 是一款高精度交互式多屏显示器与桌面工位布局规划�
 
 👉 **[Launch Live Demo / 在线免安装体验](https://pete2huan9.github.io/DeskCraft/)**
 
+<p align="center">
+  <img src="docs/images/deskcraft-showcase.png" alt="DeskCraft Multi-Monitor & Desk Setup Simulator" width="100%" />
+</p>
+
+---
+
+## 🖼️ 工位效果展示 / Workstation Gallery
+
+| 🏎️ 三屏 30° 黄金视距环抱 (Triple 27" · 190×75cm) | 👨‍💻 双气动臂 + MacBook 协作工位 (Dual 27" · 160×70cm) |
+| :---: | :---: |
+| <img src="docs/images/triple-27-panoramic.png" alt="Triple 27 Panoramic Setup" width="100%" /> | <img src="docs/images/dual-27-laptop.png" alt="Dual 27 with Laptop Setup" width="100%" /> |
+| **中间平放，两侧前倾 30° 黄金视距环抱，音箱无遮挡** | **气动臂悬浮升降双屏，底座中央容纳 14" MacBook** |
+
 ---
 
 ## ✨ 核心功能 / Core Features
